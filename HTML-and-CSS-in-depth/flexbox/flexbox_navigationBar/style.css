@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background-color: #2b2d42;
+    display: flex;
+    flex-flow: row wrap;
+    /*specify the direction of the flex and its behavior for wrapping*/
+    justify-content: stretch;
+    /*aligns the flexible containers' items along the main axis*/
+}
+
+.container li {
+    list-style-type: none;
+}
+
+.container a {
+    display: inline-block;
+    padding: 25px;
+    margin: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
