@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .text{
+            width:300px;
+            border:2px solid brown;
+            white-space:nowrap;
+            overflow:hidden;
+            /* an ellipisis is three dots represent the texts that is clipped */
+            text-overflow: ellipsis;
+        }
+        .text:hover{
+            
+            border:2px solid brown;
+            white-space:nowrap;
+            overflow:visible;
+            
+        }
+    </style>
+</head>
+<body>
+    <h2>Ellipsis property</h2>
+    <p class="text">
+        This is a sample.This is a sample.This is a sample.This is a sample.This is a sample.This is a sample.a sample.This is a sample.This is a sample.This is a sample.This is a sample.
+    </p>
+    
+</body>
+</html>

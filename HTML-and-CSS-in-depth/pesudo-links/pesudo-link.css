@@ -1,0 +1,21 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blueviolet
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: yellow;
+    background-color: black;
+}
